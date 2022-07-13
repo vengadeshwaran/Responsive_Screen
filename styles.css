@@ -1,0 +1,136 @@
+@media screen and (max-width: 498px) 
+{
+    .tContent{
+        width: 400px;
+        height: 400px;
+        background-color: white;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .imgCard{
+        background-image: url("images/image-product-mobile.jpg");
+        background-size: 400px;
+        width: 400px;
+        height: 250px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .hContent{
+        width:400px;
+        height:380px;
+        background-color: rgb(255, 255, 255);
+        border: none;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding: 0px;
+    }
+
+    .tCard{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: left;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 35px;
+    }
+    .descriCard{
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 15px; 
+        color: rgb(107, 109, 109);
+        text-align: left;
+        letter-spacing: 1.2px;
+    }
+    .price{
+        font-family: 'Abril Fatface', cursive; 
+        font-size:30px; 
+        color:#3c8169; 
+        padding-right: 20px; 
+        text-align: left;
+        display: inline;
+    }
+    input{
+        background-color: #3c8169;
+        
+    }
+    .button{
+        font-family: 'Red Hat Display', sans-serif;
+        display: block;
+        width: 350px;
+        background-color: #3c8169;
+        border: none;
+        height: 40px;
+        border-radius: 7px;
+        color: white;
+        margin-top:15px;
+    }
+
+}
+
+
+@media screen and (min-width: 500px) 
+{
+    .tContent{
+        margin-top: 100px;
+        height: 400px;
+        width: 600px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+    }
+    .imgCard{
+        background-image: url("images/image-product-desktop.jpg");
+        background-size: 300px;
+        width:300px;
+        height:450px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .hContent{
+        width:300px;
+        height:450px;
+        background-color: rgb(255, 255, 255);
+        border: none;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 0px;
+    }
+
+    .tCard{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: left;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 35px;
+    }
+    .descriCard{
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 15px; 
+        color: rgb(107, 109, 109);
+        text-align: left;
+        letter-spacing: 1.2px;
+    }
+    .price{
+        font-family: 'Abril Fatface', cursive; 
+        font-size:30px; 
+        color:#3c8169; 
+        padding-right: 20px; 
+        text-align: left;
+        display: inline;
+    }
+    input{
+        background-color: #3c8169;
+        
+    }
+    .button{
+        font-family: 'Red Hat Display', sans-serif;
+        display: block;
+        width: 220px;
+        background-color: #3c8169;
+        border: none;
+        height: 40px;
+        border-radius: 7px;
+        color: white;
+        margin-top:15px;
+    }
+}
